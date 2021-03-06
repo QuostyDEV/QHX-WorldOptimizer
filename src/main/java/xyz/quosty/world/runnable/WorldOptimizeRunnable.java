@@ -43,7 +43,7 @@ public class WorldOptimizeRunnable implements Runnable
 
                 if (entity instanceof Item) {
 
-                    final Item itemStack = (Item)entity;
+                    Item itemStack = (Item)entity;
 
                     itemAmount += itemStack.getItemStack().getAmount();
 
